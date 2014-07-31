@@ -14,7 +14,7 @@ def read_file(filename):
 
 setup(
     name='django-sentrylogs',
-    version='1.0.1',
+    version='2.2.0',
     author='<Include Your Name Here>',
     author_email='<Include Your Email Here>',
     packages=find_packages(),
@@ -37,7 +37,7 @@ setup(
     zip_safe=False,
     install_requires=[
         "Django >= 1.4",
-        "SentryLogs >= 0.1.0",
+        "SentryLogs >= 2.2.0",
         "raven >= 5.0.0",
     ]
 )
